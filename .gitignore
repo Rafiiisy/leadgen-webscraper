@@ -6,8 +6,10 @@ __pycache__/
 *.so
 
 # 🧪 Virtual Environment
+# Virtual environment
 myenv/
-.env
+env/
+.venv/
 
 # 📦 Cache and temporary files
 cache/
