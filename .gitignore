@@ -1,32 +1,33 @@
-# Byte-compiled / cache
+# 🐍 Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 *.so
 
-# Virtual environment
+# 🧪 Virtual Environment
 myenv/
-
-# Environment variables and secrets
 .env
 
-# Output artifacts
-*.log
-*.out
-*.DS_Store
-
-# Model & vectorstore caches
+# 📦 Cache and temporary files
 cache/
+*.log
+*.tmp
+*.pkl
+
+# 🗃️ Application data
 rag_storage/raw/
 rag_storage/processed/
+*.db
+*.sqlite
+*.json
 
-# Recovered code or temp folders
-recovered_src/
-
-# Streamlit artifacts
-*.streamlit/
-
-# Test output
+# 📄 Reports or outputs
 test_scrape_output.json
 
-# OS-specific
+# 🚫 System files
+.DS_Store
 Thumbs.db
+
+# ♻️ Recovery folders
+recovered_src/
