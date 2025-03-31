@@ -4,15 +4,15 @@ import threading
 from typing import List, Dict
 from dotenv import load_dotenv
 
-# 🔐 Load .env API key and model
-env_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".env"))
-load_dotenv(dotenv_path=env_path)
+# # 🔐 Load .env API key and model
+# env_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".env"))
+# load_dotenv(dotenv_path=env_path)
 
-HF_API_KEY_LLM2 = os.getenv("HF_API_KEY_LLM2")
-print("🔑 Loaded API Key Prefix:", HF_API_KEY_LLM2[:10])
+# HF_API_KEY_LLM2 = os.getenv("HF_API_KEY_LLM2")
+# print("🔑 Loaded API Key Prefix:", HF_API_KEY_LLM2[:10])
 
-API_LLM2_URL = f"https://api-inference.huggingface.co/models/google/flan-t5-large"
-headers_llm2 = {"Authorization": f"Bearer {HF_API_KEY_LLM2}"}
+# API_LLM2_URL = f"https://api-inference.huggingface.co/models/google/flan-t5-large"
+# headers_llm2 = {"Authorization": f"Bearer {HF_API_KEY_LLM2}"}
 
 # 🔒 Thread lock for thread-safe API usage
 llm_lock = threading.Lock()
