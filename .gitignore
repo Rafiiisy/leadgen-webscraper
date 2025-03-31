@@ -1,5 +1,5 @@
 # 🐍 Python
-__pycache__/
+*.__pycache__/
 *.py[cod]
 *.pyo
 *.pyd
@@ -8,14 +8,14 @@ __pycache__/
 # 🧪 Virtual Environment
 # Virtual environment
 myenv/
-env/
+*.env
 .venv/
 
 # 📦 Cache and temporary files
 cache/
 *.log
 *.tmp
-*.pkl
+cache/*.pkl
 
 # 🗃️ Application data
 rag_storage/raw/
