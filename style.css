@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;400;500&display=swap');
+
+/* === Global font and background === */
+html,
+body,
+[class*="css"] {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #ffffff !important;
+    color: #fff !important;
+}
+
+/* === Custom accent color for headings/markdown === */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.markdown-text-container h1 {
+    color: #6c44cc !important;
+}
+
+/* === Sidebar === */
+div[data-testid="stSidebar"] {
+    background-color: #262730 !important;
+}
+
+/* === Header area === */
+div[data-testid="stHeader"] {
+    background-color: #262730 !important;
+    color: #091747 !important;
+}
+
+/* === Input fields and buttons === */
+input,
+textarea,
+.stButton button {
+    background-color: #262730 !important;
+    color: #fff !important;
+    border: 1px solid #ccc !important;
+}
+
+.stButton button:hover {
+    background-color: #6c44cc !important;
+}
+
+/* === Dataframe Scrollbars === */
+div[data-testid="stDataFrame"] {
+    overflow-x: auto;
+}
+
+/* === Table and subheader style tweaks === */
+thead th {
+    background-color: #f1f3f5 !important;
+    color: #fff !important;
+    font-weight: 600;
+}
