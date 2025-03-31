@@ -1,35 +1,8 @@
-# 🐍 Python
-*.__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-
-# 🧪 Virtual Environment
-# Virtual environment
 myenv/
-*.env
-.venv/
-
-# 📦 Cache and temporary files
+__pycache__/
+*.pkl
+*.dylib
+*.so
+.cache/
+rag_storage/
 cache/
-*.log
-*.tmp
-cache/*.pkl
-
-# 🗃️ Application data
-rag_storage/raw/
-rag_storage/processed/
-*.db
-*.sqlite
-*.json
-
-# 📄 Reports or outputs
-test_scrape_output.json
-
-# 🚫 System files
-.DS_Store
-Thumbs.db
-
-# ♻️ Recovery folders
-recovered_src/
