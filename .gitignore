@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+myenv/
+
+# Environment variables and secrets
+.env
+
+# Output artifacts
+*.log
+*.out
+*.DS_Store
+
+# Model & vectorstore caches
+cache/
+rag_storage/raw/
+rag_storage/processed/
+
+# Recovered code or temp folders
+recovered_src/
+
+# Streamlit artifacts
+*.streamlit/
+
+# Test output
+test_scrape_output.json
+
+# OS-specific
+Thumbs.db
