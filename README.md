@@ -1,7 +1,8 @@
-# 🧠 LeadGen RAG Scraper
+![LeadGen Architecture](assets/leadgen%20logo.png)
+
 
 ## 📌 Project Overview
-LeadGen RAG Scraper is a tool designed to generate structured, insightful information from any public domain using Retrieval-Augmented Generation (RAG). It is tailored for lead generation tasks such as extracting company missions, services, and call-to-actions from websites, and organizing them into task-specific tables per domain.
+LeadGen RAG Web Scraper is a tool designed to generate structured, insightful information from any public domain using Retrieval-Augmented Generation (RAG). It is tailored for lead generation tasks such as extracting company missions, services, and call-to-actions from websites, and organizing them into task-specific tables per domain.
 
 ---
 
@@ -38,9 +39,8 @@ LeadGen RAG Scraper is a tool designed to generate structured, insightful inform
 ---
 
 ## 🏗️ Architecture Diagram
-```text
-figure
-```
+![LeadGen Architecture](assets/leadgen%20arc.png)
+
 
 ---
 
